@@ -1,44 +1,44 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width">
-
+    <meta charset="utf-8">
+    <script src="http://localhost:4000/livereload.js"></script>
     <link rel="stylesheet" type="text/css" href="css/app.min.css">
     <title>Tack - Contacts Made Easy</title>
   </head>
   <body>
-
     <div class="jumbotron">
       <div class="container">
-
-        <h1 class="display-4">
-        Tack
-        <i class="fa fa-fw fa-thumb-tack"></i>
-        </h1>
-
-        <p class="lead">Contacts Made Easy</p>
-
-        <a class="btn btn-primary-outline" href='./build/tack.apk' download='true' >
-          <i class="fa fa-android"></i>
-          Download for Android
-        </a>
-
+        <div class="row">
+          <div class="col-xs-6 text-center"><img src="img/phone.png" class="phone"></div>
+          <div class="col-xs-6">
+            <h1 class="display-2">Tack<i class="fa fa-fw fa-thumb-tack"></i></h1><br>
+            <h2 class="text-muted subtitle">Contacts Made Easy</h2>
+            <div class="row m-t-2">
+              <div class="col-xs-12"><a href="./build/tack.apk" download="true" class="btn btn-lg btn-primary-outline w-100"><i class="fa fa-fw fa-android"></i>&nbsp;
+                  Download for Android</a></div>
+            </div>
+            <hr>
+            <div class="row m-t-2">
+              <div class="col-xs-12"><a href="http://hello.tack.host/tack_cordova" target="_blank" class="btn btn-lg btn-success-outline w-100"><i class="fa fa-fw fa-mobile"></i>&nbsp;
+                  Client Documentation</a></div>
+            </div>
+            <div class="row m-t-2">
+              <div class="col-xs-12"><a href="http://hello.tack.host/tack_rails" target="_blank" class="btn btn-lg btn-success-outline w-100"><i class="fa fa-fw fa-server"></i>&nbsp;
+                  Server Documentation</a></div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-
     <div class="container">
       <hr>
-      <footer class="text-center">
-
-      <!-- <a href="https://github.com/TackRPI" target="_blank"><i class="fa fa-fw fa-2x fa-github"></i></a> -->
-
-      <!-- <br><br> -->
-
-      <p class="small">Tack 2016</p>
-
+      <footer class="text-center"><a href="https://github.com/TackRPI" target="_blank"><i class="fa fa-fw fa-2x fa-github"></i></a><br><br>
+        <p class="lead">TackRPI 2016</p>
       </footer>
     </div>
-
-</body></html>
+    <div data-region="main"></div>
+  </body>
+</html>
